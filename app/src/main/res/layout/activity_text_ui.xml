@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/shape_bg"
+        android:padding="5dp"
+        android:text="TextView: This is a test sentence which can be very long. To make sure that the TextView has many lines."
+        android:textSize="14sp"
+        android:textColor="@color/selector_text_color"
+        android:maxLines="2"
+        android:ellipsize="middle"/>
+
+    <com.ev.library.MultiLineTextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/shape_bg"
+        android:padding="5dp"
+        android:text="MultiLineTextView: This is a test sentence which can be very long. To make sure that the TextView has many lines."
+        android:textSize="14sp"
+        android:textColor="@color/selector_text_color"
+        android:maxLines="2"
+        android:ellipsize="middle" />
+
+    <com.ev.library.MultiLineTextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/shape_bg"
+        android:padding="5dp"
+        android:text="MultiLineTextView: This is a test sentence which can be very long. To make sure that the TextView has many lines."
+        android:textSize="14sp"
+        android:textColor="@color/selector_text_color"
+        android:maxLines="2"
+        android:ellipsize="end" />
+</LinearLayout>
